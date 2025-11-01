@@ -15,13 +15,13 @@ Minimal, copy-ready guide to build and run a Maven-based Java web application in
 - target/ (build output)
 
 ## Project WOrk Proceduer
-- Push the codes to Github
-- Pull the project in to server
-- build the project **mvn clean package**
-- build the Docker image in the project **docker build -t canara_image .**
-- Run the container **docker run -it -d --name canara_container -p 8080:8080 canara_image**
+- Push the codes to Github - **git push origin masin**
+- Pull the project in to server - **git pull origin main**
+- build the project - **mvn clean package**
+- build the Docker image in the project - **docker build -t canara_image .**
+- Run the container - **docker run -it -d --name canara_container -p 8080:8080 canara_image**
 
 ### Optional that you can run using docker-compose also
-- to build and run the container **docker-compose up -d --build**
-- to remove the container **docker-compose down**
+- to build and run the container - **docker-compose up -d --build**
+- to remove the container - **docker-compose down**
 ---
